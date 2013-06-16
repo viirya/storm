@@ -10,13 +10,13 @@ To build Storm from sources:
 
 * Install leiningen
     
-    wget http://github.com/technomancy/leiningen/raw/stable/bin/lein
-    chmod u+x lein
+        wget http://github.com/technomancy/leiningen/raw/stable/bin/lein
+        chmod u+x lein
 
 * Install maven
 * Run build script
 
-    bin/build_release.sh
+        bin/build_release.sh
 
 
 ## Documentation
