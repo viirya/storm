@@ -23,8 +23,10 @@ sh bin/build_modules.sh
 for module in $(cat MODULES)
 do
 	cd $module
+        mvn package
+        mvn install
 	mvn dependency:copy-dependencies || exit 1
-	cp -f target/dependency/*.jar $DIR/lib/
+	cp -f target/release/dependency/*.jar $DIR/lib/
 	cp -f target/*.jar $DIR/
 	cd ..
 done
