@@ -4,6 +4,21 @@ The [Rationale page](https://github.com/nathanmarz/storm/wiki/Rationale) on the 
 
 Storm has a website at [storm-project.net](http://storm-project.net). Follow [@stormprocessor](https://twitter.com/stormprocessor) on Twitter for updates on the project.
 
+## Build
+
+To build Storm from sources:
+
+* Install leiningen
+    
+    wget http://github.com/technomancy/leiningen/raw/stable/bin/lein
+    chmod u+x lein
+
+* Install maven
+* Run build script
+
+    bin/build_release.sh
+
+
 ## Documentation
 
 Documentation and tutorials can be found on the [Storm wiki](http://github.com/nathanmarz/storm/wiki).
